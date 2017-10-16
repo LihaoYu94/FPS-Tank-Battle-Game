@@ -1,4 +1,10 @@
-﻿using UnityEngine;
+﻿/*
+This code is particularly interesting because it synchronizes the behaviour of 
+the spheres using Queue. As a result, when the ray/missile hits the balls, they will
+reappear in the scene at the same order they are shot.
+*/
+
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 using System.Collections.Generic;
